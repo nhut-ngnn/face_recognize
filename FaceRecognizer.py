@@ -31,7 +31,7 @@ def getProfile(id):
     return profile
 
 # Khởi tạo camera
-cam=cv2.VideoCapture(1);
+cam=cv2.VideoCapture(0);
 
 while(True):
 
