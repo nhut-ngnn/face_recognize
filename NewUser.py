@@ -1,7 +1,7 @@
 import cv2
 import sqlite3
 
-cam = cv2.VideoCapture(1)
+cam = cv2.VideoCapture(0)
 detector=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 # Hàm cập nhật tên và ID vào CSDL
